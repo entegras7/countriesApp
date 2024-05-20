@@ -36,6 +36,10 @@ export const CountriesPage: React.FC = () => {
     });
 
     const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        if(event.target.value===""){
+            setCountriesToShow(countries);
+            return;
+        }
         setCountriesToShow(countries.filter((item) => { return (item.region === event.target.value) }))
     }
 
