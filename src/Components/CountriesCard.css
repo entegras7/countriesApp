@@ -1,0 +1,23 @@
+.subheading{
+    font-style: bold;
+}
+
+.countriesCard{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flag{
+    width: 100%;
+}
+
+.infoContainer{
+    padding: 0 10px 10px 10px;
+}
+
+.darkModeElements{
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+}

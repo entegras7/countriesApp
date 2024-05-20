@@ -1,0 +1,91 @@
+.modalContainer {
+    margin: 0 50px 50px 50px;
+}
+
+.countrydetailContainer {
+    max-width: 1000px;
+    margin-top: 40px;
+    padding: 50px;
+    display: flex;
+}
+
+.selectedCountryImage {
+    flex-grow: 1.2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.country-detail {
+    flex-grow: 0.7;
+    padding-left: 40px;
+}
+
+.flexContainer {
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.flexItem{
+    width: 300px;
+}
+
+.buttonContainer{
+    width : 70px;
+}
+
+.borderCountriesContainer {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.borderButton {
+    height:30px;
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+
+.subHeading {
+    font-weight: 600;
+}
+
+.darkMode{
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+}
+
+.darkModeElements{
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+    .modalContainer {
+        margin: 0
+    }
+
+    .countrydetailContainer {
+        width: 100%;
+        padding:0;
+        margin:10px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .country-detail {
+        padding:0;
+    }
+
+    .flexItem{
+        width: 200px;
+    }
+}
